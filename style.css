@@ -1,10 +1,54 @@
 #app {
-  width: 826px;
-  height: 936px;
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
 }
 
 .box {
   width: 100%;
   height: 100%;
 }
+
+#bamboo {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  width: 450px;
+  height: 300px;
+}
+
+#fish-flag {
+  height: 200px;
+  width: 800px;
+}
+
+#map {
+  height: 300px;
+  width: 800px;
+}
+
+#quadropus {
+  grid-row: 4 / 4;
+  grit-column: 1 /4;
+  height: 150px;
+  width: 450px;
+}
+
+#vase-short {
+  grid-row: 1 / 4;
+  grid-column: 3/4;
+  width: 250px;
+  height: 200px;
+}
+
+#vase-tall {
+  grid-row: 3 / 5;
+  grid-column: 1 / 2;
+  height: 300px;
+  width: 150px;  
+}
+
+
+
 
